@@ -7,7 +7,7 @@
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
-	  # Raise pull requests for version updates to docker against the `develop` branch
+    # Raise pull requests for version updates to docker against the `develop` branch
     target-branch: "develop"  	  
     # Prefix all commit messages with "npm" plus its scope, that is, a list of updated dependencies
     commit-message:
@@ -17,7 +17,7 @@
     # open-pull-requests-limit: 0
     # Allow up to 10 open pull requests for pip dependencies
     open-pull-requests-limit: 10	
-	  pull-request-branch-name:
+    pull-request-branch-name:
     # Separate sections of the branch name with a hyphen
       # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
       separator: "-"	
